@@ -7,7 +7,7 @@ export default function Partners() {
     <>
       <Container>
         <BasicTitle text="Our Major Partners" />
-        <Cards pairIds={["botto", "terra-luna", "bitcoin"]} />
+        <Cards pairIds={["bath", "water", "paint-swap"]} />
         <DataCard />
       </Container>
     </>
