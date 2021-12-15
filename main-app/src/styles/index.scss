@@ -1,0 +1,15 @@
+/* CONFIG */
+@import "./config/config.scss";
+@import "./config/fonts/fonts.scss";
+
+/* ANIMATIONS */
+@import "./animations/transitions.scss";
+
+/* COMPONENTS */
+@import "./components/Cta";
+@import "./components/Naavbar";
+
+/* PAGES */
+@import "./pages/Soap";
+@import "./pages/Hexa";
+@import "./pages/About";

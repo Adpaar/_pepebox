@@ -1,0 +1,36 @@
+.grain {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  user-select: none;
+  pointer-events: none;
+
+  &__wrapper {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    user-select: none;
+    pointer-events: none;
+  }
+}
+
+.usn {
+  user-select: none;
+}
+
+.usa {
+  user-select: all;
+}
+
+.pen {
+  pointer-events: none;
+}
+
+.pea {
+  pointer-events: all;
+}

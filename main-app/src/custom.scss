@@ -1,0 +1,46 @@
+// Override default variables before the import
+// CONFIG
+$white: #ffffff;
+$white-n1: #f9f9f9;
+$cream: #f9f9f9;
+$purple: #8e61ff;
+$black: #000000;
+$black-n1: #171717;
+$grey: #f2f2f2;
+$grey-n1: #a9a9a9;
+$grey-n2: #a1a8ac;
+$purple: #a682ff;
+$yellow: #fff500;
+
+$font-family-sans-serif: "Inter";
+$font-family-monospace: "Inter";
+$heading-font-family: "Inter";
+$body-font-family: "Inter";
+$base-font-size: 1.5rem;
+
+$nav-link-padding-y: 0;
+$nav-link-padding-x: 0;
+
+// Import Bootstrap and its default variables
+@import "~bootstrap/scss/bootstrap.scss";
+
+.hero-section {
+  height: 100vh;
+}
+.desc-section {
+  height: 50vh;
+}
+.roadmap-section {
+  height: 80vh;
+}
+.partners-section {
+  height: 50vh;
+}
+.footer-section {
+  height: 50vh;
+}
+.hero-bubble {
+  width: 60%;
+}
+
+@import "./styles/index.scss";
