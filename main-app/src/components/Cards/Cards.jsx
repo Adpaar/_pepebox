@@ -8,23 +8,23 @@ export default function Cards(props) {
 
   const [cards, setCards] = useState([
     {
-      id: "botto",
-      image: "",
-      title: "title",
+      id: "bath",
+      image: "../assets/images/brush2.png",
+      title: "BATH",
       text: "Current peoples :",
       price: undefined,
     },
     {
-      id: "terra-luna",
-      image: "",
-      title: "title2",
+      id: "water",
+      image: "../assets/images/water.svg",
+      title: "WATER",
       text: "Current value :",
       price: undefined,
     },
     {
-      id: "bitcoin",
-      image: "",
-      title: "title3",
+      id: "brush",
+      image: "../assets/images/bath.png",
+      title: "BRUSH",
       text: "Current value :",
       price: undefined,
     },
@@ -54,16 +54,18 @@ export default function Cards(props) {
 
   return (
     <Row>
-      {cards.map((card) => {
-        return (
-          <CardU
-            image={card.image}
-            title={card.title}
-            text={card.text}
-            price={card.price}
-          />
-        );
-      })}
+      <div className="caards">
+        {cards.map((card) => {
+          return (
+            <CardU
+              image={card.image}
+              title={card.title}
+              text={card.text}
+              price={card.price}
+            />
+          );
+        })}
+      </div>
     </Row>
   );
 }

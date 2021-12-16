@@ -1,10 +1,11 @@
 import React from "react";
-import { BasicTitle } from "./BasicTitle";
+import BasicTitle from "./BasicTitle";
+import { Container } from "react-bootstrap";
 
 export default function Roadmap() {
-  return 
-  (<div className="roadmap-section">
+  return (
+    <Container className="roadmap-section">
       <BasicTitle text="Roadmap" />
-
-  </div>;
-  )}
+    </Container>
+  );
+}

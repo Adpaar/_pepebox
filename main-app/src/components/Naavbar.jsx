@@ -4,10 +4,10 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 import { Cta } from "./index";
 import logo from "../assets/brand/soap-logo.svg";
 
-export default function Naavbar() {
+export default function Naavbar(props) {
   return (
     <nav>
-      <Navbar className="container--navbar mb-5 pt-4">
+      <Navbar className={`container--navbar mb-5 pt-4 ${props.style}`}>
         <Container>
           <Navbar.Brand href="" className="nav-braand">
             <div>

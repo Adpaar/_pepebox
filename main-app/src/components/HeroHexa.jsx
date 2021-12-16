@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import heroBubble from "../assets/images/hero-bubble.png";
-import { Naavbar, Cta, BasicTitle, BasicHero } from "./index";
+import { Naavbar, Cta, BasicTitle, BasicText } from "./index";
 
 export default function Hero() {
   return (
@@ -11,13 +11,10 @@ export default function Hero() {
         <Row className="align-items-center">
           <Col className="">
             <div className="hero-text">
-              <BasicTitle text="Stake a token who smells good!" />
-              <BasicText
-                text="Clean your wallet full of poocoin with SOAP, join the bubble and
-                let's grow together!"
-              />
+              <BasicTitle text="Metaverse" />
+              <BasicText text="Acheter du terrain" />
             </div>
-            <Cta text={"Stake Now"} />
+            <Cta text={"Coming soon (Q2 2022"} />
           </Col>
           <Col className="mx-auto">
             <div className="d-flex justify-content-center">

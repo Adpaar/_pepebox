@@ -1,9 +1,12 @@
 import React from "react";
+import { Hero, Description, Footer } from "../components/index";
 
-export default function Soap() {
+export default function Hexa() {
   return (
-    <div>
-      <h1>Hexa page</h1>
+    <div className="hexa-page">
+      <Hero />
+      <Description />
+      <Footer />
     </div>
   );
 }

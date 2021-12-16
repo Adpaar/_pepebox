@@ -65,14 +65,14 @@ export const navSections = [
       {
         tag: "",
         displayText: "Contact Us",
-        url: "https://getshogun.com/contact",
+        url: "https://www.facebook.com/groups/777374235782561",
         icon: "",
         _id: "f3f8f7f6-c5d6-489d-9f55-acdcf8418cda",
       },
       {
         tag: "",
-        displayText: "Join the Soap Army",
-        url: "https://www.facebook.com/groups/233792693660992",
+        displayText: "Join our Discord!",
+        url: "https://discord.com/invite/VpKvYJnS8F",
         icon: "",
         _id: "345290f6-c4c2-402c-8e3b-506ef0d335bf",
       },

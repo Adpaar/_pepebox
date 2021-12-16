@@ -1,5 +1,5 @@
 import Naavbar from "./Naavbar";
-import Hero from "./Hero";
+import Hero from "./HeroHexa";
 import Description from "./Description";
 import Roadmap from "./Roadmap";
 /* import Partners from "./Partners"; */
@@ -10,6 +10,8 @@ import Cards from "./Cards/Cards";
 import CardU from "./Cards/CardU";
 import BasicText from "./BasicText";
 import Investors from "./Investors";
+import DescriptionHexa from "./DescriptionHexa";
+import HeroHexa from "./HeroHexa";
 
 export {
   Naavbar,
@@ -24,4 +26,6 @@ export {
   Cards,
   CardU,
   Investors,
+  DescriptionHexa,
+  HeroHexa,
 };
