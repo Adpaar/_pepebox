@@ -4,7 +4,7 @@ import CardU from "./CardU";
 import { Row } from "react-bootstrap";
 
 export default function Cards(props) {
-  const [price, setPrice] = useState(0);
+  /* const [price, setPrice] = useState(0); */
 
   const [cards, setCards] = useState([
     {
@@ -45,6 +45,7 @@ export default function Cards(props) {
       cardUpdate["price"] = price; // assign card price
 
       setCards(copyCards); // update react cards
+      console.log(copyCards);
     });
 
     // get price from data

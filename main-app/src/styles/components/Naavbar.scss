@@ -2,6 +2,13 @@
   font-weight: 500;
 }
 .nav-braand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-weight: 700;
   font-size: 1.2rem;
+
+  & span {
+    padding-left: 20px;
+  }
 }

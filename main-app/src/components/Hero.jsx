@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <section className="hero-section">
       <Naavbar />
-      <Container className="mt-5">
+      <Container className="container-pad">
         <Row className="align-items-center">
           <Col className="">
             <div className="hero-text">

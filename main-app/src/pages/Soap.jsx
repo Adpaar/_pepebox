@@ -3,7 +3,8 @@ import {
   Hero,
   Description,
   Roadmap,
-  Partners,
+  Investors,
+  /* Partners, */
   Footer,
 } from "../components/index";
 
@@ -13,7 +14,8 @@ export default function Soap() {
       <Hero />
       <Description />
       <Roadmap />
-      <Partners />
+      <Investors />
+      {/* <Partners /> */}
       <Footer />
     </div>
   );

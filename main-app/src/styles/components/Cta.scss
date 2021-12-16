@@ -1,6 +1,6 @@
 .cta {
-  background: #fff;
-  border: 0px solid transparent;
+  background: #ffa7ab;
+  border: 2px solid #996666;
   width: auto;
   text-align: center;
   position: relative;
@@ -8,7 +8,7 @@
   display: inline-flex;
   cursor: pointer;
   border-radius: 100px;
-  color: #212529;
+  color: #fff;
 }
 
 .cta-connect {
@@ -17,6 +17,7 @@
     rgb(201, 2, 215),
     rgb(52, 159, 222)
   );
+  border: 0px solid transparent;
   color: #fff;
   font-weight: bold;
   margin-left: 2rem;

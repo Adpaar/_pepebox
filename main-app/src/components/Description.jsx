@@ -5,7 +5,7 @@ import { Cta } from "./index";
 export default function Description() {
   return (
     <section className="desc-section">
-      <Container className="desc-container">
+      <Container className="desc-container container-pad">
         <Row className="align-items-center">
           <Col xs={7} className="pb-5">
             <div className="hero-text">
