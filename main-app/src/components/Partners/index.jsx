@@ -1,20 +1,29 @@
 import React from "react";
-import Badge from "./PartnersBadge";
-import Card from "./PartnersCard";
-import partners from "./partners.json";
+import { Col, Row, Container } from "react-bootstrap";
+import PartnGlow from "./PartnGlow";
+import PartnBala from "./PartnBala";
+import PartnRiv from "./PartnRiv";
+import PartnBotto from "./PartnBotto";
+import { BasicTitle } from "../index";
 
 export default function Partners() {
   return (
     <Container>
-      {partners.map((partner, index) => (
-        <Card
-          key={partner.description}
-          hexa={partner.hexa}
-          title={partner.title}
-          description={website.description}
-          image={partner.image}
-        />
-      ))}
+      <BasicTitle text="Our Partners" style={"text-whitee"} />
+      <Row>
+        <Col xs={3}>
+          <PartnGlow />
+        </Col>
+        <Col xs={3}>
+          <PartnBala />
+        </Col>
+        <Col xs={3}>
+          <PartnRiv />
+        </Col>
+        <Col xs={3}>
+          <PartnBotto />
+        </Col>
+      </Row>
     </Container>
   );
 }

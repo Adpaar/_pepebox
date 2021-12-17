@@ -3,7 +3,7 @@ import NaavbarW from "./NaavbarW";
 import Hero from "./Hero";
 import Description from "./Description";
 import Roadmap from "./Roadmap";
-/* import Partners from "./Partners"; */
+import Partners from "./Partners";
 import Footer from "./Footer/index";
 import Cta from "./Cta";
 import BasicTitle from "./BasicTitle";
@@ -22,7 +22,7 @@ export {
   Hero,
   Description,
   Roadmap,
-  /* Partners, */
+  Partners,
   Footer,
   Cta,
   BasicTitle,

@@ -4,7 +4,7 @@ import {
   Description,
   Roadmap,
   Investors,
-  /* Partners, */
+  Partners,
   Footer,
 } from "../components/index";
 
@@ -15,7 +15,7 @@ export default function Soap() {
       <Description />
       <Roadmap />
       <Investors />
-      {/* <Partners /> */}
+      <Partners />
       <Footer />
       <div class="cursor"></div>
     </div>

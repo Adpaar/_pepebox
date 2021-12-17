@@ -1,9 +1,9 @@
 import Iframe from "react-iframe";
 
-export default function Hexagone() {
+export default function PartnGlow() {
   return (
     <Iframe
-      url="https://my.spline.design/travailbafinicopycopy-f79073028058cda0a6a3575f7c9448d2/"
+      url="https://my.spline.design/travailgfinifini-dd75bfed59fe63e4b7493448ec4bfead/"
       width="450px"
       height="450px"
       id="myId"

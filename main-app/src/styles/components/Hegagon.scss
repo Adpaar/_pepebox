@@ -1,13 +1,9 @@
-.spline-container {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  position: fixed;
-  background: rgba(180, 180, 180, 0);
+.hexa-move {
+  position: absolute;
+  top: -130px;
+  left: 40px;
 }
 
-.spline-container canvas {
-  width: 100%;
-  height: 100%;
-  outline: none;
+.relative {
+  position: relative;
 }

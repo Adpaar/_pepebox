@@ -23,7 +23,11 @@ export default function HeroHexa() {
             <Cta text={"Coming soon (Q2 2022)"} />
           </Col>
           <Col xs={6}>
-            <Hexagone />
+            <div className="relative">
+              <div className="hexa-move">
+                <Hexagone />
+              </div>
+            </div>
           </Col>
         </Row>
       </Container>
