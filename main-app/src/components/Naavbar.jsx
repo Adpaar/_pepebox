@@ -9,7 +9,7 @@ export default function Naavbar(props) {
     <nav>
       <Navbar className={`container--navbar  py-4 ${props.style}`}>
         <Container>
-          <Navbar.Brand href="" className="nav-braand">
+          <Navbar.Brand href="" className="nav-braand ">
             <div>
               <img
                 alt="logo-soap"
@@ -19,10 +19,10 @@ export default function Naavbar(props) {
               />
             </div>
             <div>
-              <span>Soap Network</span>
+              <span className="nav-liink3">Soap Network</span>
             </div>
           </Navbar.Brand>
-          <Nav className="justify-content-end align-items-center pr-5 nav-liink">
+          <Nav className="justify-content-end align-items-center pr-5 nav-liink nav-liink3">
             <Nav.Link as={Link} to="/" className="mx-3 pt-0 ">
               Bubble Stacking
             </Nav.Link>

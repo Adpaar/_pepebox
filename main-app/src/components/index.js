@@ -1,6 +1,6 @@
 import Naavbar from "./Naavbar";
 import NaavbarW from "./NaavbarW";
-import Hero from "./HeroHexa";
+import Hero from "./Hero";
 import Description from "./Description";
 import Roadmap from "./Roadmap";
 /* import Partners from "./Partners"; */

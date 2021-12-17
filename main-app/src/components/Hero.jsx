@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import heroBubble from "../assets/images/hero-bubble.png";
-import { Naavbar, Cta, BasicTitle, BasicHero } from "./index";
+import { Naavbar, Cta, BasicTitle, BasicText } from "./index";
 
 export default function Hero() {
   return (
