@@ -1,15 +1,15 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import heroBubble from "../assets/images/hero-bubble.png";
-import { NaavbarW, Cta, BasicTitle, BasicText } from "./index";
+import { NaavbarW, Cta, BasicTitle, BasicText, Hexagone } from "./index";
 
-export default function Hero() {
+export default function HeroHexa() {
   return (
     <section className="hero-section">
       <NaavbarW />
       <Container className="container-pad">
         <Row className="align-items-center">
-          <Col className="">
+          <Col xs={6} className="">
             <div className="hero-text">
               <BasicTitle
                 text="Hexa Tile, a hexagonal virtual world."
@@ -22,10 +22,8 @@ export default function Hero() {
             </div>
             <Cta text={"Coming soon (Q2 2022)"} />
           </Col>
-          <Col className="mx-auto">
-            <div className="d-flex justify-content-center">
-              <img className="hero-bubble" src={heroBubble} alt="bubble" />
-            </div>
+          <Col xs={6}>
+            <Hexagone />
           </Col>
         </Row>
       </Container>

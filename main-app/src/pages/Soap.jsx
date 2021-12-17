@@ -17,6 +17,7 @@ export default function Soap() {
       <Investors />
       {/* <Partners /> */}
       <Footer />
+      <div class="cursor"></div>
     </div>
   );
 }

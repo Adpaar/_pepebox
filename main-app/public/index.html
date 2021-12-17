@@ -9,9 +9,25 @@
       name="description"
       content="Web site created using create-react-app"
     />
-
-    <title>React App</title>
+    <!--   <link rel="preload" href="./scene.json" as="fetch" /> -->
+    <title>Soap App</title>
   </head>
+  <script>
+    var $cursor = $(".cursor");
+
+    function moveCursor(e) {
+      $cursor.addClass("is-moving");
+      $cursor.css({ top: e.pageY, left: e.pageX });
+
+      clearTimeout(timer2);
+
+      var timer2 = setTimeout(function () {
+        $cursor.removeClass("is-moving");
+      }, 300);
+    }
+
+    $(window).on("mousemove", moveCursor);
+  </script>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>

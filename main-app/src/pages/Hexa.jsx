@@ -1,10 +1,10 @@
 import React from "react";
-import { Hero, DescriptionHexa, Footer } from "../components/index";
+import { HeroHexa, DescriptionHexa, Footer } from "../components/index";
 
 export default function Hexa() {
   return (
     <div className="hexa-page">
-      <Hero />
+      <HeroHexa />
       <DescriptionHexa />
       <Footer />
     </div>

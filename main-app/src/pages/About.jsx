@@ -13,6 +13,7 @@ export default function About() {
       <NaavbarW style="bg-grad " />
       <DescriptionAbout />
       <Footer />
+      <div class="cursor"></div>
     </div>
   );
 }

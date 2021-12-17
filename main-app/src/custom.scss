@@ -60,5 +60,41 @@ ul {
 .text-whitee {
   color: #f2f2f2;
 }
+.hero-bubble {
+  animation: move 1s 1s infinite ease-out alternate both;
+}
+
+@keyframes move {
+  100% {
+    transform: translate3d(0, -60px, 0);
+  }
+}
+/* * {
+  cursor: none;
+}
+
+.cursor {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: -50%;
+  left: -50%;
+  margin: -15px 0 0 -15px;
+  border-radius: 50%;
+  background-color: white;
+  backface-visibility: hidden;
+  transition: transform 0.2s ease-out;
+  mix-blend-mode: difference;
+  z-index: 1000;
+  pointer-events: none;
+}
+.cursor.is-moving {
+  transform: scale(0.8);
+}
+
+.content_cursor {
+  position: relative;
+  height: 100%;
+} */
 
 @import "./styles/index.scss";

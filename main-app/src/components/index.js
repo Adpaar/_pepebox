@@ -13,8 +13,8 @@ import BasicText from "./BasicText";
 import Investors from "./Investors";
 import DescriptionHexa from "./DescriptionHexa";
 import HeroHexa from "./HeroHexa";
-import Slider from "./Slider";
 import DescriptionAbout from "./DescriptionAbout";
+import Hexagone from "./Hexagone";
 
 export {
   Naavbar,
@@ -32,6 +32,6 @@ export {
   Investors,
   DescriptionHexa,
   HeroHexa,
-  Slider,
   DescriptionAbout,
+  Hexagone,
 };
