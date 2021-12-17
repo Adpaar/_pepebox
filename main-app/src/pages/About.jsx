@@ -1,11 +1,17 @@
 import React from "react";
-import { Naavbar, Description, Footer } from "../components/index";
+import {
+  NaavbarW,
+  Description,
+  Footer,
+  Slider,
+  DescriptionAbout,
+} from "../components/index";
 
 export default function About() {
   return (
     <div className="about-page">
-      <Naavbar style="bg-grad" />
-      <Description />
+      <NaavbarW style="bg-grad " />
+      <DescriptionAbout />
       <Footer />
     </div>
   );

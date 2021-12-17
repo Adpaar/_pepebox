@@ -4,13 +4,11 @@ import CardU from "./CardU";
 import { Row } from "react-bootstrap";
 
 export default function Cards(props) {
-  /* const [price, setPrice] = useState(0); */
-
   const [cards, setCards] = useState([
     {
-      id: "bath",
+      id: "pinkcoin",
       image: "../assets/images/brush2.png",
-      title: "BATH",
+      title: "PINK",
       text: "Current peoples :",
       price: undefined,
     },
@@ -22,7 +20,7 @@ export default function Cards(props) {
       price: undefined,
     },
     {
-      id: "brush",
+      id: "paint-swap",
       image: "../assets/images/bath.png",
       title: "BRUSH",
       text: "Current value :",
@@ -35,19 +33,21 @@ export default function Cards(props) {
     const formatIds = pairIds.join("%2C");
     const url = `https://api.coingecko.com/api/v3/simple/price?ids=${formatIds}&vs_currencies=usd`;
 
-    const { data } = await axios.get(url);
+    axios.get(url).then(({ data }) => {
+      pairIds.forEach((id) => {
+        const price = data[id]["usd"];
 
-    pairIds.forEach((id) => {
-      const price = data[id]["usd"];
+        const copyCards = [...cards]; // create a shallow copy of cards
+        const cardUpdate = copyCards.find((card) => card.id === id); // find card in cards by id
+        cardUpdate["price"] = price; // assign card price
 
-      const copyCards = [...cards]; // create a shallow copy of cards
-      const cardUpdate = copyCards.find((card) => card.id === id); // find card in cards by id
-      cardUpdate["price"] = price; // assign card price
+        setCards(copyCards); // update react cards
+        console.log(copyCards);
+      });
 
-      setCards(copyCards); // update react cards
-      console.log(copyCards);
+      // get price from data
+      console.log(cards);
     });
-
     // get price from data
     console.log(cards);
   }, []); // only runs after mount the component
