@@ -5,7 +5,7 @@ import React from "react";
 const FooterBaseLineLink = ({ text, path }) => {
   return (
     <li className="footer-bottom__baseline-item">
-      <a href={path} className="footer-bottom__baseline-link">
+      <a href={path} target="_blank" className="footer-bottom__baseline-link">
         {text}
       </a>
     </li>

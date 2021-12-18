@@ -10,6 +10,7 @@ const FooterSocialLink = ({ path, icon, name }) => {
         className="footer-bottom__socials-link"
         dangerouslySetInnerHTML={{ __html: icon }}
         aria-label={name}
+        target="_blank"
       ></a>
     </li>
   );

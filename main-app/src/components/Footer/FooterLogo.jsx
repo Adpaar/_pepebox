@@ -11,6 +11,7 @@ const FooterLogo = () => {
         className="footer-top__logo-link"
         dangerouslySetInnerHTML={{ __html: brandLogo }}
         aria-label="Shogun Home Page"
+        target="_blank"
       ></a>
     </div>
   );

@@ -12,11 +12,16 @@ const FooterNavSectionLink = ({ path, text, tag, icon }) => {
           className="footer-top__navigation-link"
           dangerouslySetInnerHTML={{ __html: icon }}
           aria-label="Product"
+          target="_blank"
         ></a>
       ) : (
         <>
           {/* If this is not an icon link, render a normal link with the data passed */}
-          <a href={path} className="footer-top__navigation-link">
+          <a
+            href={path}
+            target="_blank"
+            className="footer-top__navigation-link"
+          >
             {text}
           </a>
           {/* If there is a tag included with this link, display it otherwise display nothing */}
