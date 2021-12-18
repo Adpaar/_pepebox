@@ -16,7 +16,7 @@ export default function HeroHexa() {
                 style={"text-whitee"}
               />
               <BasicText
-                text="Hexa Tile World is huge, and it's a game design by the gamers for the gamers. One Tile per 15 active players Playing give you the possibility to move your tile in the air or in the ground."
+                text="Hexa Tile World is a game design by the gamers for the gamers. One Tile per 15 active players minimum"
                 style={"text-whitee"}
               />
             </div>

@@ -35,7 +35,7 @@ export const navSections = [
       {
         tag: "",
         displayText: "Documentation",
-        url: "https://getshogun.com/about",
+        url: "https://app.gitbook.com/s/p5AMl5Ci3DmYeC3KVm4h/",
         icon: "",
         _id: "c8d4d72f-ba59-4e62-abaf-3828ee168b43",
       } /* 

@@ -22,8 +22,8 @@ export default function DescriptionHexa() {
                 for the swap of your tile and meet new friends.
               </p>
               <p className="text-whitee">
-                As a decentralized game, we believe the brands who want to buy
-                ads space do not have their place here.
+                The brands who want to buy ads spaces do not have their place
+                here.
               </p>
             </div>
           </Col>
