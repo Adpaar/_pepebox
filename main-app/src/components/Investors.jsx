@@ -7,7 +7,7 @@ export default function Investors() {
   return (
     <>
       <Container className="container-pad">
-        <BasicTitle text="Our Major Investors" />
+        <BasicTitle text="Our Major Investors" className="pb-4" />
         <Cards pairIds={["pinkcoin", "water", "paint-swap"]} />
       </Container>
     </>

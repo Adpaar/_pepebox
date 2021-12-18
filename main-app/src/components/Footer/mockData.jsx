@@ -35,11 +35,17 @@ export const navSections = [
       {
         tag: "",
         displayText: "Documentation",
-        url: "https://app.gitbook.com/s/p5AMl5Ci3DmYeC3KVm4h/",
+        url: "https://getshogun.com/about",
         icon: "",
         _id: "c8d4d72f-ba59-4e62-abaf-3828ee168b43",
-      },
-      
+      } /* 
+      {
+        tag: "",
+        displayText: "Press Kit",
+        url: "https://getshogun.com/press",
+        icon: "",
+        _id: "9d0325fd-afb1-4ee7-8fb7-64s7fb06843a",
+      }, */,
       {
         tag: "",
         displayText: "Shopping Advices",
@@ -79,7 +85,7 @@ export const navSections = [
 ];
 
 export const baselineLinks = [
-/*   {
+  /*   {
     displayText: "Legal",
     url: "/",
     name: "Footer - Legal",
@@ -91,10 +97,11 @@ export const baselineLinks = [
     name: "Footer - Privacy",
     _id: "a4817996-407e-422e-830a-36a1b7a5fb5f",
   },
-]; */
-;
+  */
+];
+
 export const socialLinks = [
- /*  {
+  /*  {
     url: "https://www.youtube.com/channel/UC_K05jH_tYkiJy8DZzLdLyw",
     icon: `<svg width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">\n<path d="M15.0919 8.19985L7.97454 12.6615V3.73175L15.0919 8.19985ZM21.7323 12.3391V4.03479C21.7323 4.03479 21.7323 0.0373535 17.9895 0.0373535H3.74278C3.74278 0.0373535 0 0.0373535 0 4.03479V12.3391C0 12.3391 0 16.3366 3.74278 16.3366H17.9895C17.9895 16.3366 21.7323 16.3366 21.7323 12.3391Z" fill="white"/>\n</svg>\n`,
     name: "Social Icon - Youtube",
@@ -111,3 +118,5 @@ export const socialLinks = [
 export const legalText = "© 2021 Soap Network";
 
 export const brandLink = "https://www.instagram.com/soap.network/";
+
+export const brandLogo = `<svg width="71" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 444.98 492.93"><defs><style>.cls-1{fill:#ffa7ab;}.cls-2{fill:#c66;}.cls-3{fill:#fff;opacity:0.5;}.cls-4{font-size:379.24px;fill:#966;font-family:Courier;}</style></defs><g id="Calque_2" data-name="Calque 2"><g id="Calque_9" data-name="Calque 9"><rect class="cls-1" y="222.49" width="444.98" height="27.81"/><circle class="cls-2" cx="222.49" cy="247.77" r="222.49"/><circle class="cls-1" cx="222.49" cy="222.49" r="222.49"/><ellipse class="cls-3" cx="222.49" cy="111.25" rx="192.72" ry="111.25"/><path class="cls-2" d="M222.49,411.48c-104.21,0-189-84.78-189-189s84.78-189,189-189,189,84.78,189,189S326.7,411.48,222.49,411.48Zm0-369.13c-99.33,0-180.14,80.81-180.14,180.14s80.81,180.14,180.14,180.14,180.14-80.81,180.14-180.14S321.82,42.35,222.49,42.35Z"/><path class="cls-2" d="M223.12,60.05c97.52,0,177.61,76,184.13,171.92.28-4.18.44-8.39.44-12.64,0-101.77-82.8-184.57-184.57-184.57S38.56,117.56,38.56,219.33q0,6.38.44,12.64C45.52,136.08,125.6,60.05,223.12,60.05Z"/><text class="cls-4" transform="translate(108.96 337.75)">S</text></g></g></svg>`;
