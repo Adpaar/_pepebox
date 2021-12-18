@@ -3,7 +3,9 @@ import React from "react";
 export default function Cta(props) {
   return (
     <>
-      <button className={`cta ${props.style}`}>{props.text}</button>
+      <a href={props.href} className={`cta ${props.style}`} target="_blank">
+        {props.text}
+      </a>
     </>
   );
 }

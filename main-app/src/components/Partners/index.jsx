@@ -9,19 +9,27 @@ import { BasicTitle } from "../index";
 export default function Partners() {
   return (
     <Container>
-      <BasicTitle text="Our Partners" style={"text-whitee"} />
-      <Row>
+      <BasicTitle text="Our Partners" />
+      <Row className="partne">
         <Col xs={3}>
-          <PartnGlow />
+          <div className="PartnerCoin px-2">
+            <PartnGlow />
+          </div>
         </Col>
         <Col xs={3}>
-          <PartnBala />
+          <div className="PartnerCoin px-2">
+            <PartnBala />
+          </div>
         </Col>
         <Col xs={3}>
-          <PartnRiv />
+          <div className="PartnerCoin px-2">
+            <PartnRiv />
+          </div>
         </Col>
         <Col xs={3}>
-          <PartnBotto />
+          <div className="PartnerCoin px-2">
+            <PartnBotto />
+          </div>
         </Col>
       </Row>
     </Container>

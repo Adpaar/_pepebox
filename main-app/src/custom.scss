@@ -55,13 +55,17 @@ ul {
 }
 
 .brand-pic {
-  width: 100%;
+  width: 80%;
 }
 .text-whitee {
   color: #f2f2f2;
 }
 .hero-bubble {
   animation: move 1s 1s infinite ease-out alternate both;
+}
+.partne {
+  position: relative;
+  left: -80px;
 }
 
 @keyframes move {
@@ -96,5 +100,20 @@ ul {
   position: relative;
   height: 100%;
 } */
-
+.roadmap-section img {
+  width: 90%;
+}
+.bob-width {
+  width: 60px;
+}
+.bob-width2 {
+  width: 60px;
+}
+.road-text {
+  position: relative;
+  top: 192px;
+}
+.PartnerCoin {
+  transform: scale(0.8);
+}
 @import "./styles/index.scss";

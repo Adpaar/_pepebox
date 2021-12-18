@@ -111,7 +111,12 @@ export default function DescriptionAbout() {
           <Col xs={6} className="pb-3">
             <div className="pt-3">
               <BasicText text={"Join me in the Doc, I have to talk to you."} />
-              <Cta text={"Here"} />
+              <Cta
+                text={"Here"}
+                href={
+                  "https://app.gitbook.com/s/p5AMl5Ci3DmYeC3KVm4h/team/idra"
+                }
+              />
             </div>
           </Col>
         </Row>

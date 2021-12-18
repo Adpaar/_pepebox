@@ -15,6 +15,7 @@ import DescriptionHexa from "./DescriptionHexa";
 import HeroHexa from "./HeroHexa";
 import DescriptionAbout from "./DescriptionAbout";
 import Hexagone from "./Hexagone";
+import Modall from "./Modall/Modall.jsx";
 
 export {
   Naavbar,
@@ -34,4 +35,5 @@ export {
   HeroHexa,
   DescriptionAbout,
   Hexagone,
+  Modall,
 };

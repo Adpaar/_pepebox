@@ -1,9 +1,9 @@
 @import url("https://rsms.me/inter/inter.css");
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  position: absolute;
 }
 
 body,
@@ -53,7 +53,11 @@ html {
   height: 50%;
   border-radius: 100%;
   filter: blur(5px);
-  background: radial-gradient(circle at top, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0) 58%);
+  background: radial-gradient(
+    circle at top,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0) 58%
+  );
 }
 
 .bubble:nth-of-type(1) {
@@ -523,6 +527,9 @@ html {
   position: relative;
   height: 100%;
 }
+*:not(.main, .top, .mid, .bot, .button, p, a, .home, .logo, .down) {
+  position: absolute;
+}
 
 .main {
   display: flex;
@@ -535,19 +542,17 @@ html {
 }
 
 .top {
-  width: 200px;
-  height: 30px;
   font-size: 2rem;
   font-weight: 600;
 }
 
 .mid {
-  width: 200px;
-  height: 30px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 500;
 }
-
+.logo {
+  width: 100px;
+}
 .bot {
   padding-top: 30px;
   font-size: 1rem;
@@ -565,6 +570,12 @@ html {
   cursor: pointer;
   border-radius: 100px;
   color: #212529;
+  margin: 20px 20px;
 }
 
-/*# sourceMappingURL=style.css.map */
+.down {
+  margin-top: 100px;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+}

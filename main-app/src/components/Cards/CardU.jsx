@@ -4,10 +4,9 @@ import { Col, Card } from "react-bootstrap";
 export default function CardU(props) {
   return (
     <Col>
-      <Card className="caard" style={{ width: "18rem" }}>
-        <Card.Img src={props.image} />
+      <Card className="caard" style={{ width: "9rem" }}>
         <Card.Body className="card-body">
-          <Card.Title className="caard-h2">{props.title}</Card.Title>
+          <Card.Title className="caard h2">{props.title}</Card.Title>
           <Card.Text className="caard-p">
             {props.text} {props.price}
           </Card.Text>
