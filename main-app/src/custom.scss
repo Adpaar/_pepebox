@@ -67,6 +67,9 @@ ul {
   position: relative;
   left: -80px;
 }
+.basicText {
+  font-size: 1.2rem;
+}
 
 @keyframes move {
   100% {
@@ -116,4 +119,16 @@ ul {
 .PartnerCoin {
   transform: scale(0.8);
 }
+.alert-phone {
+  display: none;
+}
 @import "./styles/index.scss";
+
+@media screen and (max-width: 900px) {
+  #root {
+    display: none;
+  }
+  .alert-phone {
+    display: block;
+  }
+}

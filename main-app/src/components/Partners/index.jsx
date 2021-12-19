@@ -9,7 +9,7 @@ import { BasicTitle } from "../index";
 export default function Partners() {
   return (
     <Container>
-      <BasicTitle text="Our Partners" />
+      <BasicTitle text="Our Partners" style="text-whitee pb-4" />
       <Row className="partne">
         <Col xs={3}>
           <div className="PartnerCoin px-2">

@@ -1,20 +1,24 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import heroBubble from "../assets/images/hero-bubble.png";
-import { Naavbar, Cta, BasicTitle, BasicText } from "./index";
+import { NaavbarW, Cta, BasicTitle, BasicText } from "./index";
 
 export default function Hero() {
   return (
     <section className="hero-section">
-      <Naavbar />
+      <NaavbarW />
       <Container className="container-pad">
         <Row className="align-items-center">
           <Col className="">
             <div className="hero-text">
-              <BasicTitle text="Stake a token who smells good!" />
+              <BasicTitle
+                text="Stake a token who smells good!"
+                style="text-whitee"
+              />
               <BasicText
                 text="Clean your wallet full of poocoin with SOAP, join the bubble and
                 let's grow together!"
+                style="text-whitee"
               />
             </div>
             <Cta text={"Stake Now"} />
