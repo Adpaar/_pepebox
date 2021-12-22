@@ -29,9 +29,9 @@ export default function Naavbar(props) {
             <Nav.Link as={Link} to="/hexa" className="mx-3 pt-0">
               Hexa Tile
             </Nav.Link>
-            <Nav.Link as={Link} to="/about" className="mx-3 pt-0">
+            {/* <Nav.Link as={Link} to="/about" className="mx-3 pt-0">
               About
-            </Nav.Link>
+            </Nav.Link> */}
             <Cta style="cta-connect" text="Connect" />
           </Nav>
         </Container>

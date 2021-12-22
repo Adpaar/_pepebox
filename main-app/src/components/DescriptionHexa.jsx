@@ -14,8 +14,8 @@ export default function DescriptionHexa() {
               </h2>
               <p className="hero-text text-whitee">
                 Each side of the tile of the a hexagon is equivalent to 100
-                meters, so 25km2 per Tile. The main propertie of Hexa World is
-                the Tile can be swap between them.
+                meters, so 25km2 per Tile. The main property of Hexa World is
+                each Tile can be swap between them.
               </p>
               <p className="text-whitee">
                 At the end of each season (1mo) you have to possibility to vote

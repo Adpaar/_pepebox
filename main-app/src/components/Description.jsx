@@ -29,7 +29,7 @@ export default function Description() {
           </Col>
           <Col xs={3}>
             <BasicText
-              text="Hit Mike kindly, he will show you how to clean"
+              text="Hit Bob kindly, he will show you how to clean"
               style="text-whitee"
             />
           </Col>
